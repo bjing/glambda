@@ -21,12 +21,7 @@ Here's what to do
 
     > git clone git://github.com/goldfirere/glambda.git
     > cd glambda
-    > cabal sandbox init
-    > cabal install --only-dependencies --enable-tests -j<# of CPUs you have>
-
-This should make your computer spin for a little while. In the meantime,
-enjoy the talk! (If you have trouble with `cabal sandbox`, possibly because
-of an old `cabal`, try the sequence of commands above without that step.)
+    > stack build
 
 Exercises 1 and 2 do *not* require those dependencies, so you can work on
 them while compiling dependencies.
